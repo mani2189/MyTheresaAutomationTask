@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-24T18:41:21.648Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1994900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.MyTheresaValidation.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validation of UserAccount Creation",
+        "description": "",
+        "id": "validation-of-mytheresa-uservalidation;validation-of-useraccount-creation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10039714400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches the EmailCreation application",
+            "match": {
+              "location": "Stepdefs.MyTheresaValidation.user_launches_the_email_creation_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10516129100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the random email address and click on view inbox",
+            "match": {
+              "location": "Stepdefs.MyTheresaValidation.user_enters_the_random_email_address_and_click_on_view_inbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3544810600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to MyTheresa login application",
+            "match": {
+              "location": "Stepdefs.MyTheresaValidation.user_navigates_to_my_theresa_login_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11785180200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks on My account and Create an Account",
+            "match": {
+              "location": "Stepdefs.MyTheresaValidation.user_clicks_on_my_account_and_create_an_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5746317900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User validates the account Registration",
+            "match": {
+              "location": "Stepdefs.MyTheresaValidation.user_validates_the_account_registration()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9937624000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User logs out from the application",
+            "match": {
+              "location": "Stepdefs.MyTheresaValidation.user_logs_out_from_the_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-24T18:42:13.289Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.MyTheresaValidation.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validation of Login Functionality",
+        "description": "",
+        "id": "validation-of-mytheresa-uservalidation;validation-of-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3191959400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User navigates to MyTheresa login application",
+            "match": {
+              "location": "Stepdefs.MyTheresaValidation.user_navigates_to_my_theresa_login_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1702266400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User validates the Login with Emailaddress and Password",
+            "match": {
+              "location": "Stepdefs.MyTheresaValidation.user_validates_the_login_with_emailaddress_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of MyTheresa UserValidation",
+    "description": "",
+    "id": "validation-of-mytheresa-uservalidation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/MyTheresaUserValidation.feature",
+    "tags": []
+  }
+]
