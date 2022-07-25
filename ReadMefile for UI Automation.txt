@@ -31,11 +31,13 @@ Project and Code Structure:
 
 How to Run the Program:
 1. Download the Project as Zip into local system 
-2. Go to Eclipse Click->File->Import as MavenProject (Eclipse Latest version recommended)
+2. Go to Eclipse or InteliJ --> Click->File->Import as MavenProject  (Eclipse or Intelij Latest version recommended)
 3. Right Click Project GoTo->Maven->UpdateProject to make sure all the Depedencies are downloaded from pom.xml file
-4. Go to Runner.java File (MyTeresaAutomationTask/src/test/java/Runner/RunnerTest.java)
-5. RightClick-> run as JUnit-Test 
-6. Once the program run completed successfully, Go to Console and See the Validation results printed in the console 
+4. Kindly Ensure that, the browser version should be mentioned in the code which downloads the driver through the code should support your chrome version      
+ForEg: WebDriverManager.chromedriver().browserVersion("101.0.4951.54").setup()
+5. Go to Runner.java File (MyTeresaAutomationTask/src/test/java/Runner/RunnerTest.java)
+6. RightClick-> run as JUnit-Test 
+7. Once the program run completed successfully, Go to Console and See the Validation results printed in the console 
 
 
 Software and Plugins Versions used:
